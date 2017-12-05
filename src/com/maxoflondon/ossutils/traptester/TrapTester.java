@@ -382,7 +382,6 @@ public class TrapTester {
 		}
 		
 		if (readCommunity.isEmpty() || readCommunity.contains("t@")) {
-			//Should be JdhquA5 or Acc3d1an, if sting is longer then some error was returned
 			System.out.println("Unable to retrieve community string from device " + this.host);
 			System.exit(5);
 		}
